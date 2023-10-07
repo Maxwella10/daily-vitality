@@ -1,0 +1,7 @@
+.divider {
+  border-bottom: 1px solid var(--grass8);
+  @media (min-width: 991px) {
+    border-bottom: none;
+    border-right: 1px solid var(--grass8);
+  }
+}

@@ -1,0 +1,13 @@
+.bg-gradient-grass {
+  background: linear-gradient(
+    180deg,
+    var(--grass2),
+    var(--grass5),
+    var(--grass2)
+  );
+}
+
+.bg-gradient-grass-1 {
+  background: linear-gradient(180deg, var(--grass5), var(--grass8));
+  border-radius: 0 0 24px 24px;
+}

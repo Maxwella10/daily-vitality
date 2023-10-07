@@ -1,0 +1,77 @@
+:root {
+  /* Define CSS variables for the plumPalette */
+  --plum1: #fefcff;
+  --plum2: #fdf7fd;
+  --plum3: #fbebfb;
+  --plum4: #f7def8;
+  --plum5: #f2d1f3;
+  --plum6: #e9c2ec;
+  --plum7: #deade3;
+  --plum8: #cf91d8;
+  --plum9: #ab4aba;
+  --plum10: #a144af;
+  --plum11: #953ea3;
+  --plum12: #53195d;
+  /* Define CSS variables for the grass palette */
+  --grass1: #fbfefb;
+  --grass2: #f5fbf5;
+  --grass3: #e9f6e9;
+  --grass4: #daf1db;
+  --grass5: #c9e8ca;
+  --grass6: #b2ddb5;
+  --grass7: #94ce9a;
+  --grass8: #65ba74;
+  --grass9: #46a758;
+  --grass10: #3e9b4f;
+  --grass11: #2a7e3b;
+  --grass12: #203c25;
+  /* Define CSS variables for the orange palette */
+  --orange1: #fefcfb;
+  --orange2: #fff7ed;
+  --orange3: #ffefd6;
+  --orange4: #ffdfb5;
+  --orange5: #ffd19a;
+  --orange6: #ffc182;
+  --orange7: #f5ae73;
+  --orange8: #ec9455;
+  --orange9: #f76b15;
+  --orange10: #ef5f00;
+  --orange11: #cc4e00;
+  --orange12: #582d1d;
+}
+body {
+  background-image: url('./assets/images/bg3.png');
+  background-size: cover;
+}
+
+.btn-orange {
+  background-color: var(--orange8);
+  color: var(--orange1);
+  border: 1px solid var(--orange8);
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  text-decoration: none;
+  &:hover {
+    background-color: var(--orange9);
+    border: 1px solid var(--orange9);
+    color: var(--orange2);
+  }
+}
+
+.btn-plum {
+  background-color: var(--plum8);
+  color: var(--plum1);
+  border: 1px solid var(--plum8);
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  text-decoration: none;
+  &:hover {
+    background-color: var(--plum9);
+    border: 1px solid var(--plum9);
+    color: var(--plum2);
+  }
+}

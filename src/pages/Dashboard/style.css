@@ -1,0 +1,4 @@
+.header-styling {
+  background: linear-gradient(180deg, var(--plum1), var(--plum6));
+  color: var(--plum12);
+}
