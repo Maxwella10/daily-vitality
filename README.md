@@ -1,7 +1,7 @@
 # daily-vitality
 
 Health and fitness app to help users manage their weight and health.
-![DailyVitalityScreenshot](./src/assets/images/screenshot.png)
+![DailyVitalityScreenshot](daily-vitality-homepage.png)
 
 ## Deployed Application
 
